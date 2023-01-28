@@ -86,4 +86,11 @@ textarea {
   background-color: #06aed5;
 }
 
+input {
+  width: 500px;
+  height: 30px;
+  border: hidden;
+} 
+
+
 
