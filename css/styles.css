@@ -68,4 +68,22 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  
 }
+
+#first {
+  border-top: grey solid 1px;
+  border-bottom: grey solid 1px;
+}
+  
+
+#middle {
+  
+  border: grey solid 1px;
+}
+
+#end {
+  background-color: #06aed5;
+}
+
+
