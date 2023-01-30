@@ -1,6 +1,7 @@
 // var currentDayEL = $('#currentDay');
 // var inputTextEl = $('.input-text');
 var nineAM = $('#9AM');
+
 var tenAM = $('#10AM');
 var elevenAM = $('#11AM');
 var twelvePM = $('#12PM');
@@ -96,9 +97,19 @@ submitEl.addEventListener("click", function(event) {
 var d = new Date().getHours();
 if (d < 10) {
     document.write("fdfjjgbjrj");
-    document.body.style.backgroundColor="blue";
+    document.getElementById("9AM").style.backgroundColor="blue";
 } else if (d < 20) {
-    document.nineAM.style.backgroundColor="pink";
+    document.getElementById("9AM").style.backgroundColor="pink";
 } else {
-    document.body.style.backgroundColor="red";
+    document.getElementById("9AM").style.backgroundColor="red";
+}
+
+var d = new Date().getHours();
+if (d < 10) {
+    document.write("fdfjjgbjrj");
+    document.getElementById("middle").style.backgroundColor="blue";
+} else if (d < 20) {
+    document.getElementById("middle").style.backgroundColor="pink";
+} else {
+    document.getElementById("middle").style.backgroundColor="red";
 }
