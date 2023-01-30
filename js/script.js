@@ -74,12 +74,17 @@ submitEl.addEventListener("click", function(event) {
 
 var now = new Date();
 var hours = now.getHours();
-var ft = now.toLocaleDateString("en-gb", {
+var ft = now.toLocaleDateString("en-US", {
     hour: "numeric",
     minute: "numeric",
     hour12: true
 });
 
-if ( 5 <= hours && hours < 9)
-nineAM.css('background', 'rgb()')
+if ( 5 <= hours && hours < 9) {
+nineAM.css('background', 'rgb(rgb(238, 232, 232)');
+var type = "9am";
+}
 
+
+
+//document.getElementById("9am").innerHTML = 'i dunno'
