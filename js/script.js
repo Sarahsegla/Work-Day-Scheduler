@@ -1,5 +1,5 @@
-var currentDayEL = $('#currentDay');
-var inputTextEl = $('.input-text');
+// var currentDayEL = $('#currentDay');
+// var inputTextEl = $('.input-text');
 var nineAM = $('#9AM');
 var tenAM = $('#10AM');
 var elevenAM = $('#11AM');
@@ -9,7 +9,7 @@ var twoPM = $('#2PM');
 var threePM = $('#3PM');
 var fourPM = $('#4PM');
 var fivePM = $('#5PM');
-var middleIputField = $('#middle');
+// var middleIputField = $('#middle');
 var submitEl = $('#submit');
 
 console.log("hi")
@@ -19,29 +19,29 @@ var currentDate = moment().format('dddd MMMM Do');
 $('#currentDay').text(currentDate);
 
 
-// trying to save
-function workDaySaved(event) {
-    event.preventDefault();
+// // trying to save
+// function workDaySaved(event) {
+//     event.preventDefault();
 
- //  var input = inputTextEl.val().trim();
+//  //  var input = inputTextEl.val().trim();
 
-   workDaySaved(input);
+//    workDaySaved(input);
 
-}
+// }
 
-// second attempt to save
-function save() {
-var inputText = document.getElementById('input-text').value;
-localStorage.setItem('text', inputText);
-}
+// // second attempt to save
+// function save() {
+// var inputText = document.getElementById('input-text').value;
+// localStorage.setItem('text', inputText);
+// }
 
-// read data
-function get() {
-    var storeInput = localStorage.getItem('text');
-    if(storeInput) {
-        document.getElementById('input-text').value = storeInput;
-    }
-}
+// // read data
+// function get() {
+//     var storeInput = localStorage.getItem('text');
+//     if(storeInput) {
+//         document.getElementById('input-text').value = storeInput;
+//     }
+// }
 
 submitEl.addEventListener("click", function(event) {
     event.preventDefault();
@@ -72,5 +72,14 @@ submitEl.addEventListener("click", function(event) {
 
 // if it passes a certain time it should change color.
 
+var now = new Date();
+var hours = now.getHours();
+var ft = now.toLocaleDateString("en-gb", {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true
+});
 
+if ( 5 <= hours && hours < 9)
+nineAM.css('background', 'rgb()')
 

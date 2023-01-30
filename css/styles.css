@@ -90,7 +90,12 @@ input {
   width: 500px;
   height: 30px;
   border: hidden;
+  background-color: #4fe44f;
 } 
+
+#middle {
+  background-color: #4fe44f;
+}
 
 
 
