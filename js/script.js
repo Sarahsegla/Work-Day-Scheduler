@@ -3,7 +3,7 @@ var inputTextEl = $('.input-text');
 var nineAM = $('#9AM');
 var tenAM = $('#10AM');
 var elevenAM = $('#11AM');
-var twelveAM = $('#12AM');
+var twelvePM = $('#12PM');
 var onePM = $('#1PM');
 var twoPM = $('#2PM');
 var threePM = $('#3PM');
@@ -46,8 +46,26 @@ function get() {
 submitEl.addEventListener("click", function(event) {
     event.preventDefault();
 
-    var input = inputTextEl.value.trim();
-})
+    var input = { 
+      nineam: nineAM.value.trim(),
+      tenam: tenAM.value.trim(),
+     elevenam: elevenAM.value.trim(),
+      twelvepm: twelvePM.value.trim(),
+      onepm: onePM.value.trim(),
+      twopm: twoPM.value.trim(),
+      threepm: threePM.value.trim(),
+      fourpm: fourPM.value.trim(),
+      fivepm: fivePM.value.trim(),
+
+    };
+
+
+
+    localStorage.setItem("input", JSON.stringify(input));
+
+    var lastInput = JSON.stringify(localStorage.getItem("input"));
+    var lastInput = localStorage.getItem("input");
+});
 
 
 
