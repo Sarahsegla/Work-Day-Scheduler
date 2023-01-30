@@ -59,14 +59,14 @@ submitEl.addEventListener("click", function(event) {
     //   fivepm: fivePM.value.trim(),
 
     // };
-    
+    var nineam = nineAM.value.trim();
 
 
 
-    localStorage.setItem("input", JSON.stringify(input));
+    localStorage.setItem("input", JSON.stringify(nineam));
 
     var lastInput = JSON.stringify(localStorage.getItem("input"));
-    var lastInput = localStorage.getItem("input");
+    var lastInput = localStorage.getItem("input", nineam);
 });
 
 
@@ -99,4 +99,6 @@ if (d < 10) {
     document.body.style.backgroundColor="blue";
 } else if (d < 20) {
     document.nineAM.style.backgroundColor="pink";
+} else {
+    document.body.style.backgroundColor="red";
 }
