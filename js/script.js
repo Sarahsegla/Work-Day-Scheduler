@@ -100,7 +100,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("9AM").style.backgroundColor="green";
 } else if (d < 9) {
-    document.getElementById("9AM").style.backgroundColor="white";
+    document.getElementById("9AM").style.backgroundColor="green";
 } else {
     document.getElementById("9AM").style.backgroundColor="white";
 }
@@ -110,7 +110,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 9) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -119,9 +119,9 @@ if (d < 8) {
 var d = new Date().getHours();
 if (d < 9) {
     document.write("fdfjjgbjrj");
-    document.getElementById("10AM").style.backgroundColor="green";
-} else if (d < 10) {
     document.getElementById("10AM").style.backgroundColor="white";
+} else if (d < 10) {
+    document.getElementById("10AM").style.backgroundColor="green";
 } else {
     document.getElementById("10AM").style.backgroundColor="white";
 }
@@ -131,7 +131,7 @@ if (d < 9) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 10) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -143,7 +143,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("11AM").style.backgroundColor="green";
 } else if (d < 11) {
-    document.getElementById("11AM").style.backgroundColor="white";
+    document.getElementById("11AM").style.backgroundColor="green";
 } else {
     document.getElementById("11AM").style.backgroundColor="white";
 }
@@ -153,7 +153,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 11) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -163,7 +163,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("12PM").style.backgroundColor="green";
 } else if (d < 12) {
-    document.getElementById("12PM").style.backgroundColor="white";
+    document.getElementById("12PM").style.backgroundColor="green";
 } else {
     document.getElementById("12PM").style.backgroundColor="white";
 }
@@ -173,7 +173,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 12) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -185,7 +185,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("1PM").style.backgroundColor="green";
 } else if (d < 13) {
-    document.getElementById("1PM").style.backgroundColor="white";
+    document.getElementById("1PM").style.backgroundColor="green";
 } else {
     document.getElementById("1PM").style.backgroundColor="white";
 }
@@ -195,7 +195,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 13) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -207,7 +207,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("2PM").style.backgroundColor="green";
 } else if (d < 14) {
-    document.getElementById("2PM").style.backgroundColor="white";
+    document.getElementById("2PM").style.backgroundColor="green";
 } else {
     document.getElementById("2PM").style.backgroundColor="white";
 }
@@ -217,7 +217,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 14) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -229,7 +229,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("3PM").style.backgroundColor="green";
 } else if (d < 15) {
-    document.getElementById("3PM").style.backgroundColor="white";
+    document.getElementById("3PM").style.backgroundColor="green";
 } else {
     document.getElementById("3PM").style.backgroundColor="white";
 }
@@ -239,7 +239,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 15) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -251,7 +251,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("4PM").style.backgroundColor="green";
 } else if (d < 16) {
-    document.getElementById("4PM").style.backgroundColor="white";
+    document.getElementById("4PM").style.backgroundColor="green";
 } else {
     document.getElementById("4PM").style.backgroundColor="white";
 }
@@ -261,7 +261,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 16) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
@@ -283,7 +283,7 @@ if (d < 8) {
     document.write("fdfjjgbjrj");
     document.getElementById("middle").style.backgroundColor="green";
 } else if (d < 17) {
-    document.getElementById("middle").style.backgroundColor="white";
+    document.getElementById("middle").style.backgroundColor="green";
 } else {
     document.getElementById("middle").style.backgroundColor="white";
 }
