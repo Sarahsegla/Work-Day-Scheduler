@@ -19,7 +19,8 @@ var currentDate = moment().format('dddd MMMM Do');
 $('#currentDay').text(currentDate);
 
 
-// save attempt
+// save attempt 
+// save local storage 
 document.getElementById("9AM").value = getSavedValue("9AM")
 
 function saveValue(e) {
