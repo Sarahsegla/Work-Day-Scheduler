@@ -45,54 +45,173 @@ $('#currentDay').text(currentDate);
 //     }
 // }
 
-submitEl.addEventListener("click", function(event) {
-    event.preventDefault();
+// submitEl.addEventListener("click", function(event) {
+//     event.preventDefault();
 
-    // var input = { 
-    //   nineam: nineAM.value.trim(),
-    //   tenam: tenAM.value.trim(),
-    //  elevenam: elevenAM.value.trim(),
-    //   twelvepm: twelvePM.value.trim(),
-    //   onepm: onePM.value.trim(),
-    //   twopm: twoPM.value.trim(),
-    //   threepm: threePM.value.trim(),
-    //   fourpm: fourPM.value.trim(),
-    //   fivepm: fivePM.value.trim(),
+//     var input = { 
+//       nineam: nineAM.value.trim(),
+//       tenam: tenAM.value.trim(),
+//      elevenam: elevenAM.value.trim(),
+//       twelvepm: twelvePM.value.trim(),
+//       onepm: onePM.value.trim(),
+//       twopm: twoPM.value.trim(),
+//       threepm: threePM.value.trim(),
+//       fourpm: fourPM.value.trim(),
+//       fivepm: fivePM.value.trim(),
 
-    // };
-    var nineam = nineAM.value.trim();
-
-
-
-    localStorage.setItem("input", JSON.stringify(nineam));
-
-    var lastInput = JSON.stringify(localStorage.getItem("input"));
-    var lastInput = localStorage.getItem("input", nineam);
-});
+//     };
+//     var nineam = nineAM.value.trim();
 
 
 
+//     localStorage.setItem("input", JSON.stringify(nineam));
 
-// if it passes a certain time it should change color.
-
-// var now = new Date();
-// var hours = now.getHours();
-// var ft = now.toLocaleDateString("en-US", {
-//     hour: "numeric",
-//     minute: "numeric",
-//     hour12: true
+//     var lastInput = JSON.stringify(localStorage.getItem("input"));
+//     var lastInput = localStorage.getItem("input", nineam);
 // });
+// save attempt
+document.getElementById("9AM").value = getSavedValue("9AM")
 
-// if ( 5 <= hours && hours < 9) {
-// nineAM.css('background', 'rgb(rgb(238, 232, 232)');
-// var type = "9am";
-// }
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
 
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
 
+//10am
+document.getElementById("10AM").value = getSavedValue("10AM")
 
-//document.getElementById("9am").innerHTML = 'i dunno'
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
 
-// second attempt 
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//11am
+
+document.getElementById("11AM").value = getSavedValue("11AM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//12pm
+
+document.getElementById("12PM").value = getSavedValue("12PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//1pm
+
+document.getElementById("1PM").value = getSavedValue("1PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+
+//2pm
+document.getElementById("2PM").value = getSavedValue("2PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//3pm
+
+document.getElementById("3PM").value = getSavedValue("2PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//4pm
+
+document.getElementById("4PM").value = getSavedValue("4PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+//5pm
+document.getElementById("5PM").value = getSavedValue("5PM")
+
+function saveValue(e) {
+    var id = e.id;
+    var val = e.value;
+    localStorage.setItem(id, val);
+}
+
+function getSavedValue (v) {
+    if (!localStorage.getItem(v)) {
+        return "";
+    }
+    return localStorage.getItem(v)
+}
+// if it passes a certain time it should change color.
 
 // 9am
 var d = new Date().getHours();
@@ -100,8 +219,8 @@ if (d < 8) {
     document.getElementById("9AM").style.backgroundColor="green";
     document.getElementById("middle9").style.backgroundColor="green";
 } else if (d < 9) {
-    document.getElementById("9AM").style.backgroundColor="red";
-    document.getElementById("middle9").style.backgroundColor="red";
+    document.getElementById("9AM").style.backgroundColor="green";
+    document.getElementById("middle9").style.backgroundColor="green";
 } else {
     document.getElementById("9AM").style.backgroundColor="white";
     document.getElementById("middle9").style.backgroundColor="white";
@@ -114,8 +233,8 @@ if (d < 9) {
     document.getElementById("10AM").style.backgroundColor="white";
     document.getElementById("middle10").style.backgroundColor="green";
 } else if (d < 10) {
-    document.getElementById("10AM").style.backgroundColor="red";
-    document.getElementById("middle10").style.backgroundColor="red";
+    document.getElementById("10AM").style.backgroundColor="green";
+    document.getElementById("middle10").style.backgroundColor="green";
 } else {
     document.getElementById("10AM").style.backgroundColor="white";
     document.getElementById("middle10").style.backgroundColor="white";
@@ -129,8 +248,8 @@ if (d < 8) {
     document.getElementById("11AM").style.backgroundColor="green";
     document.getElementById("middle11").style.backgroundColor="green";
 } else if (d < 11) {
-    document.getElementById("11AM").style.backgroundColor="red";
-    document.getElementById("middle11").style.backgroundColor="red";
+    document.getElementById("11AM").style.backgroundColor="green";
+    document.getElementById("middle11").style.backgroundColor="green";
 } else {
     document.getElementById("11AM").style.backgroundColor="white";
     document.getElementById("middle11").style.backgroundColor="white";
@@ -143,8 +262,8 @@ if (d < 8) {
     document.getElementById("12PM").style.backgroundColor="green";
     document.getElementById("middle12").style.backgroundColor="green";
 } else if (d < 12) {
-    document.getElementById("12PM").style.backgroundColor="red";
-    document.getElementById("middle12").style.backgroundColor="red";
+    document.getElementById("12PM").style.backgroundColor="green";
+    document.getElementById("middle12").style.backgroundColor="green";
 } else {
     document.getElementById("12PM").style.backgroundColor="white";
     document.getElementById("middle12").style.backgroundColor="white";
@@ -158,8 +277,8 @@ if (d < 8) {
     document.getElementById("1PM").style.backgroundColor="green";
     document.getElementById("middle1").style.backgroundColor="green";
 } else if (d < 13) {
-    document.getElementById("1PM").style.backgroundColor="red";
-    document.getElementById("middle1").style.backgroundColor="red";
+    document.getElementById("1PM").style.backgroundColor="green";
+    document.getElementById("middle1").style.backgroundColor="green";
 } else {
     document.getElementById("1PM").style.backgroundColor="white";
     document.getElementById("middle1").style.backgroundColor="white";
@@ -174,8 +293,8 @@ if (d < 8) {
     document.getElementById("2PM").style.backgroundColor="green";
     document.getElementById("middle2").style.backgroundColor="green";
 } else if (d < 14) {
-    document.getElementById("2PM").style.backgroundColor="red";
-    document.getElementById("middle2").style.backgroundColor="red";
+    document.getElementById("2PM").style.backgroundColor="green";
+    document.getElementById("middle2").style.backgroundColor="green";
 } else {
     document.getElementById("2PM").style.backgroundColor="white";
     document.getElementById("middle2").style.backgroundColor="white";
@@ -191,8 +310,8 @@ if (d < 8) {
     document.getElementById("3PM").style.backgroundColor="green";
     document.getElementById("middle3").style.backgroundColor="green";
 } else if (d < 15) {
-    document.getElementById("3PM").style.backgroundColor="red";
-    document.getElementById("middle3").style.backgroundColor="red";
+    document.getElementById("3PM").style.backgroundColor="green";
+    document.getElementById("middle3").style.backgroundColor="green";
 } else {
     document.getElementById("3PM").style.backgroundColor="white";
     document.getElementById("middle3").style.backgroundColor="white";
@@ -208,8 +327,8 @@ if (d < 8) {
     document.getElementById("4PM").style.backgroundColor="green";
     document.getElementById("middle4").style.backgroundColor="green";
 } else if (d < 16) {
-    document.getElementById("4PM").style.backgroundColor="red";
-    document.getElementById("middle4").style.backgroundColor="red";
+    document.getElementById("4PM").style.backgroundColor="green";
+    document.getElementById("middle4").style.backgroundColor="green";
 } else {
     document.getElementById("4PM").style.backgroundColor="white";
     document.getElementById("middle4").style.backgroundColor="white";
@@ -225,8 +344,8 @@ if (d < 8) {
     document.getElementById("5PM").style.backgroundColor="green";
     document.getElementById("middle5").style.backgroundColor="green";
 } else if (d < 17) {
-    document.getElementById("5PM").style.backgroundColor="red";
-    document.getElementById("middle5").style.backgroundColor="red";
+    document.getElementById("5PM").style.backgroundColor ="green";
+    document.getElementById("middle5").style.backgroundColor="green";
 } else {
     document.getElementById("5PM").style.backgroundColor="white";
     document.getElementById("middle5").style.backgroundColor="white";
