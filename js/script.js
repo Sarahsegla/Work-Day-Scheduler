@@ -107,16 +107,6 @@ if (d < 8) {
     document.getElementById("middle9").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle9").style.backgroundColor="green";
-// } else if (d < 9) {
-//     document.getElementById("middle9").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle9").style.backgroundColor="white";
-// }
-
 //10am
 var d = new Date().getHours();
 if (d < 9) {
@@ -130,16 +120,6 @@ if (d < 9) {
     document.getElementById("10AM").style.backgroundColor="white";
     document.getElementById("middle10").style.backgroundColor="white";
 }
-
-// var d = new Date().getHours();
-// if (d < 9) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle10").style.backgroundColor="green";
-// } else if (d < 10) {
-//     document.getElementById("middle10").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle10").style.backgroundColor="white";
-// }
 
 //11am
 
@@ -156,15 +136,6 @@ if (d < 8) {
     document.getElementById("middle11").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle11").style.backgroundColor="green";
-// } else if (d < 11) {
-//     document.getElementById("middle11").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle11").style.backgroundColor="white";
-// }
  //12pm
 var d = new Date().getHours();
 if (d < 8) {
@@ -178,16 +149,6 @@ if (d < 8) {
     document.getElementById("12PM").style.backgroundColor="white";
     document.getElementById("middle12").style.backgroundColor="white";
 }
-
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle12").style.backgroundColor="green";
-// } else if (d < 12) {
-//     document.getElementById("middle12").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle12").style.backgroundColor="white";
-// }
 
 //1pm
 
@@ -204,15 +165,6 @@ if (d < 8) {
     document.getElementById("middle1").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle1").style.backgroundColor="green";
-// } else if (d < 13) {
-//     document.getElementById("middle1").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle1").style.backgroundColor="white";
-// }
 
 //2pm
 
@@ -229,15 +181,7 @@ if (d < 8) {
     document.getElementById("middle2").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle2").style.backgroundColor="green";
-// } else if (d < 14) {
-//     document.getElementById("middle2").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle2").style.backgroundColor="white";
-// }
+
 
 //3pm
 
@@ -254,15 +198,7 @@ if (d < 8) {
     document.getElementById("middle3").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle3").style.backgroundColor="green";
-// } else if (d < 15) {
-//     document.getElementById("middle3").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle3").style.backgroundColor="white";
-// }
+
 
 //4pm
 
@@ -279,15 +215,7 @@ if (d < 8) {
     document.getElementById("middle4").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle4").style.backgroundColor="green";
-// } else if (d < 16) {
-//     document.getElementById("middle4").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle4").style.backgroundColor="white";
-// }
+
 
 // 5pm
 
@@ -304,12 +232,3 @@ if (d < 8) {
     document.getElementById("middle5").style.backgroundColor="white";
 }
 
-// var d = new Date().getHours();
-// if (d < 8) {
-//     document.write("fdfjjgbjrj");
-//     document.getElementById("middle5").style.backgroundColor="green";
-// } else if (d < 17) {
-//     document.getElementById("middle5").style.backgroundColor="green";
-// } else {
-//     document.getElementById("middle5").style.backgroundColor="white";
-// }
