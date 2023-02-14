@@ -36,7 +36,7 @@ function getSavedValue (v) {
     return localStorage.getItem(v)
 }
 
-//10am
+//10am 10am
 document.getElementById("10AM").value = getSavedValue("10AM")
 
 function saveValue(e) {
